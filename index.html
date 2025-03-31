@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DAV gym</title>
-    <!-- <link href="images/favicon.ico" rel="icon" type="image/x-icon" /> -->
-    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
     <link rel="stylesheet" href="styles.css" />
     <script
       src="https://kit.fontawesome.com/7433d3320f.js"
@@ -221,40 +219,18 @@
     <div id="contact" class="contact">
       <!-- First Section  -->
 
-
-
-
-      <!-- <div class="form" data-aos="fade-up">
-        <h2>Feel free to ask anything</h2>
-        <div class="submit">
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <textarea placeholder="Message" cols="5" rows="5"></textarea>
-          <a href="#">Send Message</a>
-        </div>
-      </div> -->
-
-
-
-      <form class="form"  action="https://formspree.io/f/mkgjvedg"  method="POST">
+      <form class="form" action="https://formspree.io/f/mkgjvedg" method="POST">
         <div class="form" id="divform" data-aos="fade-up">
-          <h2>Feel free to ask anything</h2>
-          <div class="submit">
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="Email" />
-            <textarea placeholder="Message" cols="5" rows="5"></textarea>
-            <!-- <a href="#">Send Message</a> -->
-            <button type="submit" id="form_button">Send</button>
-          </div>
+            <h2>Feel free to ask anything</h2>
+            <div class="submit">
+                <input type="text" name="name" placeholder="Name" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <textarea name="message" placeholder="Message" cols="5" rows="5" required></textarea>
+                <button type="submit" id="form_button">Send</button>
+            </div>
         </div>
-      </form>
-
-
-
-
-
-
-
+    </form>
+    
       <!-- Second Section  -->
       <div class="map" data-aos="fade-up">
         <h2>Where you can find us</h2>
@@ -270,10 +246,6 @@
     <!-- Footer Section  -->
     <div class="footer">
       <p>
-        <!-- © 2022
-        <a href="https://in.linkedin.com/in/shanty-verma-16a053220" target="_blank"
-          >GeekyPrashant</a
-        >, All Rights Reserved -->
         Shanty & Tushar BCA Final year
       </p>
       <p>
