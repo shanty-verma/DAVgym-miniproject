@@ -1,5 +1,3 @@
-// Hamburger Menu
-
 var menu = document.getElementById("bar");
 var item = document.getElementById("item");
 
@@ -11,3 +9,4 @@ menu.onclick = function () {
     item.style.right = "-300px";
   }
 };
+

@@ -15,7 +15,7 @@ html {
   justify-content: space-between;
   width: 100%;
   padding: 15px 70px;
-  background: #222;
+  background: #171819;
   z-index: 1;
 }
 .nav h2 {
@@ -41,6 +41,9 @@ html {
   font-size: 15px;
   text-transform: uppercase;
   color: #fff;
+}
+a{
+  text-decoration: none;
 }
 #item li a:hover {
   color: #ff5733;
@@ -290,6 +293,10 @@ h5 {
     12.5px 12.5px 10px rgba(0, 0, 0, 0.045),
     30.1px 30.1px 24.1px rgba(0, 0, 0, 0.059),
     100px 100px 80px rgba(0, 0, 0, 0.09);
+}
+.class .classMenu .team:hover {
+   box-shadow: none;
+  box-shadow: 10px 10px 21px -5px rgba(253, 197, 123, 0.50);
 }
 .class .classMenu .team .img img {
   width: 100%;
@@ -839,4 +846,210 @@ h5 {
   .contact .map {
     width: 80%;
   }
+}
+
+/*card page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 15px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.class-details {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.class-info h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.class-info p {
+  font-size: 16px;
+  color: #555;
+}
+
+.trainer, .price {
+  font-weight: bold;
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.description {
+  background: #fdf6e3;
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.benefits, .schedule, .requirements {
+  background: #e8f5e9;
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 22px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.join-btn {
+  background:
+#ff9800;
+  color: white;
+  border:
+none;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius:5px;
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  height: 70px;
+}
+.join-btn:hover {
+  background: #e68900;
+}
+.instructor-photo{
+  height: 20vw;
+  width: 20vw;
+  object-fit: cover;
+}
+
+.image-detail{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.trainer-detail-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.trainer-detail-div p{
+  padding: 5px;
+}
+
+
+
+
+
+
+/* shop now section design */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+p {
+  color: #555;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col-2 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+.col-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+
+.shop-btn {
+  display: inline-block;
+  background: #ff523b;
+  color: #ffffff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+
+.shop-btn:hover {
+  background: #563434;
+}
+
+.header {
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+.header .row {
+  margin-top: 70px;
 }

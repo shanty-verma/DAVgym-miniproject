@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - DAV Gym</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <header>
+        <h1>FIT NATION - Shop</h1>
+        <button id="cart-button">Cart (<span id="cart-count">0</span>)</button>
+    </header>
+    
+    <section class="products">
+        <div class="product" data-name="Protein Powder" data-price="1500">
+            <img src="images/protein-powder.jpg" alt="Protein Powder">
+            <h2>Protein Powder</h2>
+            <p>Price: ₹1500</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Gym T-Shirt" data-price="800">
+            <img src="images/gym-t-shirt.jpg" alt="Gym T-Shirt">
+            <h2>Gym T-Shirt</h2>
+            <p>Price: ₹800</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Skipping Rope" data-price="500">
+            <img src="images/skipping-rope.jpg" alt="Skipping Rope">
+            <h2>Skipping Rope</h2>
+            <p>Price: ₹500</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product" data-name="Dumbbells Set" data-price="2500">
+            <img src="images/dumbbells-set.jpg" alt="Dumbbells Set">
+            <h2>Dumbbells Set</h2>
+            <p>Price: ₹2500</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Resistance Bands" data-price="1200">
+            <img src="images/resistance-bands.jpg" alt="Resistance Bands">
+            <h2>Resistance Bands</h2>
+            <p>Price: ₹1200</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Kettlebell" data-price="1800">
+            <img src="images/kettlebell.jpg" alt="Kettlebell">
+            <h2>Kettlebell</h2>
+            <p>Price: ₹1800</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Yoga Mat" data-price="1000">
+            <img src="images/yoga-mat.jpg" alt="Yoga Mat">
+            <h2>Yoga Mat</h2>
+            <p>Price: ₹1000</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Gym Gloves" data-price="600">
+            <img src="images/gym-gloves.jpg" alt="Gym Gloves">
+            <h2>Gym Gloves</h2>
+            <p>Price: ₹600</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Treadmill Lubricant" data-price="500">
+            <img src="images/treadmill-lubricant.jpg" alt="Treadmill Lubricant">
+            <h2>Treadmill Lubricant</h2>
+            <p>Price: ₹500</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Shaker Bottle" data-price="400">
+            <img src="images/shaker-bottle.jpg" alt="Shaker Bottle">
+            <h2>Shaker Bottle</h2>
+            <p>Price: ₹400</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Foam Roller" data-price="900">
+            <img src="images/foam-roller.jpg" alt="Foam Roller">
+            <h2>Foam Roller</h2>
+            <p>Price: ₹900</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Weightlifting Belt" data-price="2000">
+            <img src="images/weightlifting-belt.jpg" alt="Weightlifting Belt">
+            <h2>Weightlifting Belt</h2>
+            <p>Price: ₹2000</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+    </section>
+    
+    <div id="cart" class="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: ₹<span id="cart-total">0</span></p>
+        <button id="checkout">Checkout</button>
+    </div>
+    <div id="cart-summary"></div>
+    
+    <script src="shop.js"></script>
+</body>
+</html>
